@@ -1,0 +1,24 @@
+@font-face {
+   // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+   font-family: "GolosDemiBold";
+   // адрес шрифта и тип
+   src: url("../fonts/Golos-Text_DemiBold.ttf") format("truetype");
+   font-style: normal;
+   font-weight: 600;
+}
+@font-face {
+   // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+   font-family: "GolosMedium";
+   // адрес шрифта и тип
+   src: url("../fonts/Golos-Text_Medium.ttf") format("truetype");
+   font-style: normal;
+   font-weight: 500;
+}
+@font-face {
+   // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+   font-family: "GolosRegular";
+   // адрес шрифта и тип
+   src: url("../fonts/Golos-Text_Regular.ttf") format("truetype");
+   font-style: normal;
+   font-weight: 400;
+}
