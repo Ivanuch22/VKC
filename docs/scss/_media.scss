@@ -279,4 +279,143 @@
       line-height: 28px;
       margin-bottom: 20px;
    }
+   //advantages__block
+   .advantages {
+      margin-top: 10px;
+   }
+   .advantages__block {
+      margin-top: 20px;
+      justify-content: space-between;
+   }
+   .advantages__colum {
+      margin-right: 0;
+      margin: 0 10px 20px 20px;
+      padding: 20px 15px 20px;
+      width: 46%;
+      &:nth-child(even) {
+         margin-right: 0;
+      }
+      &:nth-child(odd) {
+         margin-left: 0;
+      }
+   }
+   ////howItwork
+   .HowItWorks__colum {
+      width: 31%;
+      margin-bottom: 20px;
+   }
+   .HowItWorks__number {
+      font-size: 86px;
+      line-height: 100px;
+   }
+   .HowItWorks__colum-text {
+      max-width: 100%;
+      font-size: 12px;
+   }
+   .HowItWorks__title {
+      margin-top: 10px;
+   }
+   .HowItWorks__colum-title {
+      font-size: 16px;
+      margin-bottom: 25px;
+      line-height: 19px;
+   }
+   ////////OFERS
+   .offersBlock {
+      margin-top: 20px;
+   }
+   .offersBlock__img {
+      width: 210%;
+      left: -76%;
+   }
+   .offersBlock__row-right {
+      padding: 15px;
+      min-width: 53%;
+   }
+   .offersBlock .before {
+      margin-left: 5px;
+   }
+   .offer__text,
+   .before::before {
+      left: -20px;
+   }
+   .offersBlock__title {
+      font-size: 20px;
+      margin-bottom: 20px;
+      line-height: 23px;
+   }
+   .offersBlock__description {
+      margin-bottom: 10px;
+      font-size: 12px;
+      line-height: 14px;
+   }
+   .offersBlock__button {
+      padding: 10px 9px;
+      font-size: 13px;
+   }
+   //partners
+   .partners__title {
+      margin-top: 30px;
+      margin-bottom: 20px;
+   }
+   .partners__slider {
+      padding: 0 15px;
+   }
+   .swiper-button-next,
+   .swiper-button-prev {
+      top: 60%;
+   }
+   ///forms
+   ///forms
+   ///forms
+   .form__input {
+      margin-bottom: 14px;
+      width: 100%;
+      border: 2px solid #bdbdbd;
+      padding: 12px;
+   }
+   .form__right {
+      padding: 25px 10px;
+   }
+
+   .form__left {
+      min-width: 35%;
+   }
+   .form__text {
+      margin-bottom: 30px;
+   }
+   .footer__menu {
+      display: none;
+   }
+   .footer__colum {
+      margin: 0 3px;
+   }
+}
+@media (max-width: 450px) {
+   .advantages__colum {
+      margin: 0;
+      margin-bottom: 15px;
+      padding: 20px 15px 20px;
+      width: 100%;
+   }
+   .advantages__colum-title {
+      margin-bottom: 20px;
+      margin-top: 25px;
+   }
+   .HowItWorks__colum {
+      width: 100%;
+      margin-bottom: 20px;
+      text-align: center;
+   }
+   .HowItWorks__colum-text {
+      max-width: 100%;
+      font-size: 14px;
+   }
+   .HowItWorks__colum-title {
+      font-size: 18px;
+      line-height: 20px;
+   }
+   .form__left {
+      min-width: 0;
+   }
 }
