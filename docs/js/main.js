@@ -13,11 +13,12 @@ const swiper = new Swiper('.swiper-container', {
    },
 });
 
+let body = document.querySelector('body');
+
 //burger 
 const burgerButton = document.querySelector('.menu__burger');
 const menu = document.querySelector('.menu__wrapper');
 let menuButtons = document.querySelectorAll('.header__button');
-let body = document.querySelector('body');
 const menuBlock = document.querySelectorAll('.header__link')
 
 burgerButton.addEventListener('click', () => {
@@ -31,3 +32,18 @@ burgerButton.addEventListener('click', () => {
    });
    body.classList.toggle('body--active');
 });
+
+
+//modal
+const openModalButton = document.querySelector('.offer__button');
+const closeModalButton = document.querySelector('.formModal__exit');
+const mainModal = document.querySelector(".formModal");
+
+openModalButton.addEventListener(('click'), () => {
+   mainModal.classList.add('formModal--active');
+   body.classList.add('body--active');
+});
+closeModalButton.addEventListener(('click'), () => {
+   mainModal.classList.remove('formModal--active');
+   body.classList.remove('body--active');
+})
